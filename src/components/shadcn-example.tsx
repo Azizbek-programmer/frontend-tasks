@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+// import React, { useState } from "react";
 import { Button } from "./ui/button";
 import { Card, CardContent } from "./ui/card";
 import { Drawer, DrawerContent, DrawerHeader, DrawerTitle } from "./ui/drawer";
@@ -28,6 +28,7 @@ import {
   ResizablePanel,
   ResizablePanelGroup,
 } from "./ui/resizable";
+import { useState } from "react";
 
 export const ShadcnExample = () => {
   const [open, setOpen] = useState(false);
